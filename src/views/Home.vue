@@ -145,7 +145,7 @@
            :height="280"
            :width="480"
     >
-      <iframe src="https://iamadamspaul.substack.com/embed" width="480" height="320"></iframe>
+      <iframe src="https://iamadamspaul.substack.com/embed" height="320"></iframe>
     </modal>
   </div>
 </template>
