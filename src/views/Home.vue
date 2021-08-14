@@ -17,12 +17,12 @@
             <img src="img/App.svg" alt="App">
           </div>
           <div class="hidden md:block absolute right-0 m-10 border-2 border-dashed rounded-full border-black px-4 py-6">
-            <a href="#" class="font-bold text-2xl rounded-full bg-native text-white px-4 py-4 text-right">
+            <a href="#" v-on:click="showModal" class="font-bold text-2xl rounded-full bg-native text-white px-4 py-4 text-right">
               Get Early Access
             </a>
           </div>
           <div class="md:hidden m-10 border-2 border-dashed rounded-full border-black px-4 py-4">
-            <div  class="font-bold text-2xl rounded-full bg-native text-white px-4 py-4 text-center">
+            <div v-on:click="showModal"  class="font-bold text-2xl rounded-full bg-native text-white px-4 py-4 text-center">
               Get Early Access
             </div>
           </div>
